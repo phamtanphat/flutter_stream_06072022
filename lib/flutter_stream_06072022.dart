@@ -33,4 +33,6 @@ void main(List<String> arguments) {
   Future.delayed(Duration(seconds: 2), () {
     nameController.sink.add("Pham Tan Phat");
   });
+
+  // BehaviorSubject, PublishSubject
 }
